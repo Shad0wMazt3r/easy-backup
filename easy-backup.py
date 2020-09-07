@@ -3,7 +3,7 @@
 # v0.5
 import os
 items = os.listdir()
-items.remove('main.py')
+items.remove('easy-backup.py')
 print(f"backing up {items}")
 os.system("mkdir backup")
 os.chdir("backup")
